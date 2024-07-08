@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>LOGIN</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<style>
+
+.back{
+    background-image: url(e1.png.jpg);
+    width: 100%;
+    height: 600px;
+}
+.form{
+    width: 400px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 120px;
+    left: 550px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 385px;
+    font-family: sans-serif;
+    text-align: center;
+    color:  #0fb1ce;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 400px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #0fb1ce;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #ffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 400px;
+    height: 40px;
+    background: #0fb1ce;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4 ease;
+}
+
+.btnn :hover{
+    background: #000;
+    color:  #0fb1ce;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.form .link a{
+    text-emphasis: none;
+    color:  #0fb1ce;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.fa-brands{
+    text-align: center;
+    color: #fff;
+    width: 400px;
+    inline-size: 90px;
+}
+
+.bottem{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #d3ecf5;
+}
+.bottem h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.bottem-iocns .fa-brands{
+    text-align: center;
+    color: black; 
+    width: 0px;
+    inline-size: 20px; 
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+</style>
+<body>
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">SIMPLISH</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="COURSE.html">COURES</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                    <li><a href="LOGIN.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="back">
+            <div class="form">
+                <h2>Login here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="Password" name="" placeholder="Enter Password Here">
+                <button class="btnn"><a href="#">Login</a></button>
+
+                <p class="link">Don't have an account<br>
+                <a href="#">Sign up here</a></p>
+                <p class="liw">Log in with</p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="bottem">
+            <h2>About us</h2> <br>
+            <p>At SIMPLISH, we are passionate about transforming learning experiences through <br>
+                innovative technology and dedicated education.
+            </p>
+            <div class="bottem-iocns">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <p>Made by <i class="fa-solid fa-thumbs-up"></i> Mohammad umar</p>
+            </div>
+        </div>
+</body>
+</html>
